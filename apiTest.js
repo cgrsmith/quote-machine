@@ -1,4 +1,4 @@
-
+//Initialise with a quote and set the new-quote button
 $(document).ready(function() {
   getQuote();
   $("#new-quote").click(getQuote);

@@ -4,6 +4,7 @@
 $font-primary: #333;
 $bg-primary: #FFF;
 $box-bg: #EAEAEE;
+$shadow-colour: #333;
 
 * {
     color: $font-primary;
@@ -38,7 +39,7 @@ h1 {
     margin: auto;
     margin-top: 10%;
     border-radius: 4px;
-    
+    box-shadow: -5px 5px 20px $shadow-colour;    
 }
 #text {
     font-size: 20px;
